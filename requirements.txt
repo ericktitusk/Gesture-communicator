@@ -1,0 +1,10 @@
+# Keep the opencv-python / mediapipe / scikit-learn / joblib versions you already have working
+# for Gesture-communicator. Python 3.10, 3.11 or 3.12.
+opencv-python
+mediapipe==0.10.14
+numpy<2
+scikit-learn
+joblib
+pyttsx3          # Windows speech (Mac uses the built-in `say`)
+tensorflow==2.16.2 # runs the ASL letter model (Keras 3)
+huggingface_hub  # one-time download of the letter model
